@@ -10,4 +10,4 @@ const GameOver = ({retry, score}) => {
   )
 }
 
-export default GameOver
+export default GameOver;
