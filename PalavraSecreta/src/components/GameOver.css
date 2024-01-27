@@ -1,4 +1,11 @@
-h2 span{
-    color: #ecfa00;
-    font-size: 1.5em;
+.over{
+    background-color: rgb(252, 252, 204);
+    border: 2px solid rgb(252, 252, 204);
+    border-radius: 20px;
+    padding: 8px 80px;
+}
+
+.over button{
+    margin: 18px;
+    margin-bottom: 20px;
 }

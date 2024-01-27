@@ -1,8 +1,16 @@
-.start h1{
-    font-size:  3.5em;
+.start{
+    background-color: rgb(252, 252, 204);
+    border: 2px solid rgb(252, 252, 204);
+    border-radius: 20px;
+    padding: 8px 80px;
 }
 
-.start p {
-    margin-bottom: 2em;
-    color: #ecfa00;
+.start h1{
+    font-size: 3em;  
+    margin-bottom: 18px;  
+}
+
+.start button{
+    margin-top: 18px;
+    margin-bottom: 30px;
 }
