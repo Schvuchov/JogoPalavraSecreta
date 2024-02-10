@@ -83,6 +83,11 @@ function App() {
       setGuessedLetters((actualGuessedLetters) => [
         ...actualGuessedLetters, 
         normalizedLetter,]);
+
+      setWrongLetters((actualWrongLetters) => [
+        ...actualWrongLetters, 
+        normalizedLetter,]);
+
     }else {
       setWrongLetters((actualWrongLetters) => [
         ...actualWrongLetters, 

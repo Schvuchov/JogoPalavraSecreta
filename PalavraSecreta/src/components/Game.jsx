@@ -31,7 +31,7 @@ const Game = ({
           Dica: <span>{pickedCategory}</span>
         </h3>
         <h3 className="points">
-          <span>Pontuação: {score} </span>
+          Pontuação: <span> {score} </span>
         </h3>
       </div>
           
@@ -47,7 +47,7 @@ const Game = ({
 
           
       <div className="wrongLettersContainer">
-        <p>Letras ja utilizadas {wrongLetters.map((letter, i) => (
+        <p>Palpite(s): {wrongLetters.map((letter, i) => (
           <span key={i}>{letter}, </span>
         ))}
         </p>
